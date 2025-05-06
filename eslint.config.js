@@ -6,5 +6,10 @@ module.exports = defineConfig([
   expoConfig,
   {
     ignores: ['dist/*'],
+    rules: {
+      "semicolon": ["error", "always"],
+      "quotes": ["error", "double"],
+      "tabWidth": ["error", 2],
+    }
   },
 ]);
