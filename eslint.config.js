@@ -7,9 +7,9 @@ module.exports = defineConfig([
   {
     ignores: ['dist/*'],
     rules: {
-      "semicolon": ["error", "always"],
+      "semi": ["error", "always"],
+      "max-len": ["error", { code: 80, tabWidth: 4 }],
       "quotes": ["error", "double"],
-      "tabWidth": ["error", 2],
     }
   },
 ]);
