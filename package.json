@@ -34,7 +34,7 @@
     "react-dom": "19.0.0",
     "react-native": "0.79.1",
     "react-native-gesture-handler": "~2.24.0",
-    "react-native-reanimated": "3.16.2",
+    "react-native-reanimated": "^3.17.5",
     "react-native-safe-area-context": "5.3.0",
     "react-native-screens": "~4.10.0",
     "react-native-web": "~0.20.0",
@@ -46,6 +46,9 @@
     "@types/react": "~19.0.10",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~9.2.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "prettier": "^3.5.3",
     "typescript": "~5.8.3"
   },
   "private": true
