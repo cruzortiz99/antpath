@@ -12,6 +12,7 @@ module.exports = defineConfig([
       semi: ["error", "always"],
       "max-len": ["error", { code: 100, tabWidth: 4 }],
       quotes: ["error", "double"],
+      "prettier/prettier": ["off"],
     },
   },
 ]);
