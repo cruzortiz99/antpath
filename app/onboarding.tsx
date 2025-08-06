@@ -7,7 +7,7 @@ import { Text, View } from "react-native";
 export default function OnBoarding() {
   const router = useRouter();
   const handlePress = useCallback(() => {
-    router.navigate("/");
+    router.navigate("/sign_in");
   }, [router]);
   useEffect(() => {
     OnboardingStore.instance.update(false);
